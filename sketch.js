@@ -1,9 +1,6 @@
 let inputEmail;
 let btnSubmit;
 
-
-
-
 function setup() {
   
    createCanvas(900,200); // We don't need a canvas for this
