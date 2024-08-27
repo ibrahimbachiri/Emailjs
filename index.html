@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>p5.js Email Integration</title>
-    <!-- Load p5.js Library -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
     <!-- Load EmailJS SDK -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script type="text/javascript" src="sketch.js"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-        }
-    </style>
+    <!-- Load p5.js Library -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <!-- Load your sketch file -->
+    <script type="text/javascript" src="sketch.js" defer></script>
 </head>
 <body>
+    <form id="contact-form">
+         <input type="email" name="user_email"> 
+        <input type="submit" value="Send your proposal ">
+    </form>
 </body>
 </html>
